@@ -1,7 +1,6 @@
 # Hurst-estimation-BBC-TV
 Code for paper J. D. B. Nelson; C. Nafornita; A. Isar, "Semi-local scaling exponent estimation with box-penalty constraints and total-variation regularisation," in IEEE Transactions on Image Processing, doi: 10.1109/TIP.2016.2551365
 
-
 If you use this code please cite:
 
 J. D. B. Nelson; C. Nafornita; A. Isar, "Semi-local scaling exponent estimation with box-penalty constraints and total-variation regularisation," in IEEE Transactions on Image Processing, doi: 10.1109/TIP.2016.2551365,
@@ -11,7 +10,7 @@ URL: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7448417
 Free for research purposes only.
 -----
 
-DESCRIPTION:
+DESCRIPTION:<br/>
 [1] generate fractal Brownian surface with piecewise constant varying
 Hurst parameter
 
@@ -20,24 +19,23 @@ energy downsampling; semi-local weights; bound constraints on beta;
 total variation smoothing
 
 Installation:
-- prerequisites assumes presence of INRIA's fraclab (in directory
-  'fraclab') and Nick Kingsbury's DTCWT toolbox in directory (in
+- prerequisites assumes presence of INRIA's fraclab (in directory 'fraclab') and Nick Kingsbury's DTCWT toolbox in directory (in
 'dtcwt'), cf.: addpath('dtcwt', genpath('fraclab'))
 
 - run test.m
 
-LIST:
-test.m
-synthmbf.m
-bbctv.m
-constr_ols.m
-penalty2.m
-bbc.m
+LIST:<br/>
+test.m<br/>
+synthmbf.m<br/>
+bbctv.m<br/>
+constr_ols.m<br/>
+penalty2.m<br/>
+bbc.m<br/>
 
-CONTACT INFORMATION:
-Corina Nafornita,    
-Politehnica University of Timisoara,
-Romania
+CONTACT INFORMATION:<br/>
+Corina Nafornita,    <br/>
+Politehnica University of Timisoara,<br/>
+Romania<br/>
 email corina.nafornita at upt.ro
 
 
